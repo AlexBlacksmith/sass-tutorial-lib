@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22A6F2;
+  gap: 3rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+.button-primary {
+  background-color: #22A6F2;
+}
+
+.button-success {
+  background-color: #21A366;
+}
+
+.button-warning {
+  background-color: #FDBE17;
+}
+
+.button-error {
+  background-color: #e60c0c;
+}
