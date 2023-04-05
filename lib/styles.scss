@@ -1,0 +1,25 @@
+@import 'variables';
+@import 'base';
+
+.button {
+    padding: .5rem 1rem;
+    color: $color-white;
+    border: 1px solid $color-black;
+    border-radius: 10px;
+}
+
+.button-primary {
+    background-color: $color-primary;
+}
+
+.button-success {
+    background-color: $color-success;
+}
+
+.button-warning {
+    background-color: $color-warning;
+}
+
+.button-error {
+    background-color: $color-error;
+}
